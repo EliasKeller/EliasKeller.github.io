@@ -1,0 +1,39 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main{
+	width: 80%;
+	position: absolute;
+	top: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mitarbeiter{
+	width: 100%;
+	background: grey;
+}
+
+img{
+	height: 120px;
+}
+
+
+
+
+
+
+
+
+

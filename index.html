@@ -1,1 +1,101 @@
-<p>Test Test first one</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	 <script src="index.js"></script> 
+	<title>Alex Keller AG</title>
+</head>
+<body>
+	<main>
+		<section>
+			<div class="section-top-h1">
+				<h1>Alex Keller AG</h1>
+			</div>
+			<div class="section-top-div">
+				<div class="button-container">
+					<div class="button hover border-top-bottom">
+                        <h2>Kontakt</h2>
+                        <div class="container-i">
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                        </div>
+					</div>
+				</div>
+				<div class="button-container">
+					<div class="button hover">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-middle">
+			<div class="button-container">
+				<div class="button hover border-top-bottom">
+					<h2>about us</h2>
+					<div class="container-i">
+						<i class="fa fa-users" aria-hidden="true"></i>
+					</div>
+				</div>
+			
+			</div>
+			<div class="button-container">
+				<div class="button hover border-top-bottom">
+                    <h2>Projekte</h2>
+                    <div class="container-i">
+                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+
+                    </div>
+				</div>
+			</div>
+		<div class="button-container">
+				<div class="button">
+                    
+				</div>
+			</div>
+			<div class="button-container">
+				<div class="button hover border-top-bottom">
+                    <h2>Fotoalbum</h2>
+                    <div class="container-i">
+                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+
+                    </div>
+				</div>
+			</div>
+			<div class="button-container">
+				<div class="button hover">
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="section-bottom-div"></div>
+			<div class="button-container">
+				<div class="button hover border-top-bottom">
+                    <h2>Standort</h2>
+                    <div class="container-i">
+                        <i class="fa fa-map-pin" aria-hidden="true"></i>
+                    </div>
+				</div>
+			</div> 
+			<div class="section-bottom-div"></div>
+		</section>
+	</main>
+	<footer>
+		<span>Alex Keller AG | Landstrasse 12 | 9606 Bütschwil</span>
+	</footer>
+</body>
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 3000);
+    }
+</script>
+</html>
