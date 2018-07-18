@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/master.css">
-	 <script src="index.js"></script> 
-	<title>Alex Keller AG</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+    
+    <title>Alex Keller AG</title>
 </head>
+
 <body>
-	<main>
-		<section>
-			<div class="section-top-h1">
-				<h1>Alex Keller AG</h1>
-			</div>
-			<div class="section-top-div">
-				<div class="button-container">
-					<div class="button hover border-top-bottom">
-                        <h2>Kontakt</h2>
-                        <div class="container-i">
-                            <i class="fa fa-comments" aria-hidden="true"></i>
-                        </div>
-					</div>
-				</div>
-				<div class="button-container">
-					<div class="button hover">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section-middle">
-			<div class="button-container">
-				<div class="button hover border-top-bottom">
-					<h2>about us</h2>
-					<div class="container-i">
-						<i class="fa fa-users" aria-hidden="true"></i>
-					</div>
-				</div>
-			
-			</div>
-			<div class="button-container">
-				<div class="button hover border-top-bottom">
-                    <h2>Projekte</h2>
-                    <div class="container-i">
-                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+    <!-- Nav-Bar -->
+    <nav class=" light-blue lighten-2">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Alex Keller AG</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="tab" href="#">Kontakt</a></li>
+                <li><a class="tab" href="#">Über uns</a></li>
+                <li><a class="tab" href="#">Team</a></li>
+                <li><a class="tab" href="#">Gallerie</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Responsiv Nav-Bar -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Über uns</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Gallerie</a></li>
+    </ul>
 
-                    </div>
-				</div>
-			</div>
-		<div class="button-container">
-				<div class="button">
-                    
-				</div>
-			</div>
-			<div class="button-container">
-				<div class="button hover border-top-bottom">
-                    <h2>Fotoalbum</h2>
-                    <div class="container-i">
-                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+    <!-- First Parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="parallax-image" src="images/housePlanPen.jpeg"></div>
+    </div>
 
-                    </div>
-				</div>
-			</div>
-			<div class="button-container">
-				<div class="button hover">
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="section-bottom-div"></div>
-			<div class="button-container">
-				<div class="button hover border-top-bottom">
-                    <h2>Standort</h2>
-                    <div class="container-i">
-                        <i class="fa fa-map-pin" aria-hidden="true"></i>
-                    </div>
-				</div>
-			</div> 
-			<div class="section-bottom-div"></div>
-		</section>
-	</main>
-	<footer>
-		<span>Alex Keller AG | Landstrasse 12 | 9606 Bütschwil</span>
-	</footer>
+    <!-- Actual Content -->
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Parallax</h2>
+            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+    </div>
+
+    <!-- Second Parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="parallax-image" src="images/housePlanPencil.jpeg"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer light-blue lighten-2">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Footer Content</h5>
+                  <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2014 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer>
+
 </body>
-<script>
-    var myIndex = 0;
-    carousel();
 
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 3000);
-    }
-</script>
 </html>

@@ -1,25 +1,15 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
 html, body{
-	width: 100%;
-	height: 100%;
-	margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-footer{
-	width: 100%;
-	height: 60px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	background-color: rgba(128,128,128,0.4);
-	border-top: solid 2px;
-	border-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 30px;
-	color: white;
+.nav-wrapper{
+    margin-left: 10px;
 }
 
-/* let's do this*/
+.parallax-image{
+    max-width: 100%;
+    min-width: 100%;
+}
